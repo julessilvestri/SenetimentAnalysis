@@ -11,6 +11,7 @@
 		BAF2F8E12B63B233002E34F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF2F8E02B63B233002E34F5 /* ContentView.swift */; };
 		BAF2F8E32B63B234002E34F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF2F8E22B63B234002E34F5 /* Assets.xcassets */; };
 		BAF2F8E62B63B234002E34F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF2F8E52B63B234002E34F5 /* Preview Assets.xcassets */; };
+		BAF2F8ED2B63BA89002E34F5 /* SentimentAnalysis 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BAF2F8EC2B63BA89002E34F5 /* SentimentAnalysis 1.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BAF2F8E02B63B233002E34F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BAF2F8E22B63B234002E34F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAF2F8E52B63B234002E34F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BAF2F8EC2B63BA89002E34F5 /* SentimentAnalysis 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "SentimentAnalysis 1.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		BAF2F8DD2B63B233002E34F5 /* SenetimentAnalysis */ = {
 			isa = PBXGroup;
 			children = (
+				BAF2F8EC2B63BA89002E34F5 /* SentimentAnalysis 1.mlmodel */,
 				BAF2F8DE2B63B233002E34F5 /* SenetimentAnalysisApp.swift */,
 				BAF2F8E02B63B233002E34F5 /* ContentView.swift */,
 				BAF2F8E22B63B234002E34F5 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAF2F8E12B63B233002E34F5 /* ContentView.swift in Sources */,
+				BAF2F8ED2B63BA89002E34F5 /* SentimentAnalysis 1.mlmodel in Sources */,
 				BAF2F8DF2B63B233002E34F5 /* SenetimentAnalysisApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
